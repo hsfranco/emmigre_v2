@@ -1,19 +1,27 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-
-$route['politica-de-privacidade'] = "";
 $route['cadastro'] = 'PagesController/cadastro';
 $route['login'] = 'PagesController/login';
 
 $route['default_controller'] = 'PagesController/index';
 
 $route['/'] = 'PagesController/index';
-$route['/sobre-nos'] = 'PagesController/index';
-$route['/b2-visto-turista'] = 'PagesController/index';
+
+
+/********************************************************
+ *                    VISAS PAGES                       * 
+ ********************************************************/
+$route['/b2-visto-turista'] = 'VisasControllers/b2tourism';
+
+
+/********************************************************
+ *                 PORTUGUESES BASIC PAGES              * 
+ ********************************************************/
 $route['/politica-de-privacidade'] = 'PagesController/index';
 $route['/termos-e-condicoes'] = 'PagesController/index';
 $route['/cookies'] = 'PagesController/index';
+$route['/sobre-nos'] = 'PagesController/index';
 
 $route['/en'] = 'PagesController/index_en';
 $route['/en/about-us'] = 'PagesController/index_en';

@@ -7,7 +7,8 @@
 		<meta name="author" content="Hallan Franco - HACODE SOLUTIONS"/>
 		<meta name="description" content="Emmigre - Immigration and Visa Consulting  Template"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
+		<meta name="robots" content="index, follow" />
+		
   		<!-- SITE TITLE -->
 		<title>Emmigre - Imigração e consultoria de vistos </title>
 

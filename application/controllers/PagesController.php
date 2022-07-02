@@ -20,14 +20,21 @@ class PagesController extends CI_Controller {
 	 */
 	public function index()
 	{
-
-		$data = [];
-
 		$this->load->view('includes/header');
 		$this->load->view('pages/home', $data);
 		$this->load->view('includes/footer');
 	}
 
+	public function b2tourism() {
+
+		$data = [];
+		$header = ['title' => 'Emmigre - Visto de Turismo B1/B2 - Form I-539',
+				   'title' => ''];
+
+		$this->load->view('includes/header');
+		$this->load->view('visas/b2tourism', $data);
+		$this->load->view('includes/footer');
+	}
 
 	public function login()
 	{
