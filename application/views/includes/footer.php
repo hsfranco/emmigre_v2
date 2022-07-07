@@ -26,7 +26,7 @@
 							<div class="footer-links mb-40">
 								<h5 class="h5-md">Visas</h5>
 								<ul class="foo-links clearfix">
-									<li><a href="visa-details.html">Extensão visto turista/negócios B1/B2</a></li>
+									<li><a href="<?php echo base_url() ?>b2-visto-turista">Extensão visto turista/negócios B1/B2</a></li>
 								</ul>
 							</div>
 						</div>				

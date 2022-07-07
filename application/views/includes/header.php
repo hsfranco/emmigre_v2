@@ -8,7 +8,7 @@
 		<meta name="description" content="Emmigre - Immigration and Visa Consulting  Template"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<meta name="robots" content="index, follow" />
-		
+		<script src="https://js.stripe.com/v3/"></script>
   		<!-- SITE TITLE -->
 		<title>Emmigre - Imigração e consultoria de vistos </title>
 
