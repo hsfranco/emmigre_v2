@@ -1,4 +1,8 @@
-	<!-- INNER PAGE WRAPPER
+
+<script src="<?php echo base_url() ?>js/stripeEmmigre.js" async></script>
+
+
+<!-- INNER PAGE WRAPPER
 			============================================= -->	
 			<div class="inner-page-wrapper">
 				<div id="breadcrumb" class="bg-darkblue division">
@@ -544,3 +548,8 @@ concedido a qualquer membro da família será concedido a todos os membros da fa
 
 
 				<script src="<?php echo base_url() ?>js/stripeEmmigre.js"></script>
+
+				</li>
+ 
+    <div id="checkout-button" class="PaymentRequestButton" data-secret="<?= $stripe->id ?>">
+    <input type="hidden" id="stripeSessionID" value="<?php echo $stripe->id  ?>">
