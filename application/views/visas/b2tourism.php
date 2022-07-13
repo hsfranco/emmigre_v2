@@ -26,8 +26,6 @@
 				<section id="about-9" class="wide-60 about-section division">
 					<div class="container">	
 						<div class="row">
-
-
 							<!-- ABOUT TEXT -->
 							<div class="col-lg-8">
 								<div class="about-9-txt mb-40 pr-15">
@@ -90,112 +88,82 @@
 									</div>	<!-- END ABOUT BOXES -->
 									<h5 class="h5-md mt-25">Qual é a finalidade do formulário I-539?</h5>
 									<!-- Text -->
-									<p>Você deve usar este aplicativo se for um dos não-imigrantes listados abaixo e deseja solicitar a Cidadania dos EUA
-e Serviços de Imigração (USCIS) para uma extensão de estadia ou uma mudança para outro status de não imigrante.
-Em certas situações, você pode usar este aplicativo para solicitar um status inicial de não imigrante.
-Você também pode usar este aplicativo se for um estudante F-1 ou M-1 não imigrante solicitando reintegração.
+									<p> Você deve usar este aplicativo se for um dos não-imigrantes listados abaixo e deseja solicitar a Cidadania dos EUA
+										e Serviços de Imigração (USCIS) para uma extensão de estadia ou uma mudança para outro status de não imigrante.
+										Em certas situações, você pode usar este aplicativo para solicitar um status inicial de não imigrante.
+										Você também pode usar este aplicativo se for um estudante F-1 ou M-1 não imigrante solicitando reintegração.
 									</p>
 
 									<!-- Small Title -->
 									<p>
-									Você deve enviar um pedido de extensão de estadia ou mudança de status antes que sua estadia autorizada atual expire.
-Mesmo se você for aprovado para outro status no futuro, será necessário preencher um Formulário I-539 para “preencher” qualquer lacuna que
-pode surgir entre a expiração do seu status atual e a validade do seu status futuro. Portanto, sugerimos que você arquive
-pelo menos 45 dias antes de sua estadia expirar ou assim que você determinar a necessidade de alterar ou estender o status. Falha ao arquivar
-antes da data de expiração pode ser dispensado se você demonstrar ao apresentar o pedido que:
+										Você deve enviar um pedido de extensão de estadia ou mudança de status antes que sua estadia autorizada atual expire.
+										Mesmo se você for aprovado para outro status no futuro, será necessário preencher um Formulário I-539 para “preencher” qualquer lacuna que
+										pode surgir entre a expiração do seu status atual e a validade do seu status futuro. Portanto, sugerimos que você arquive
+										pelo menos 45 dias antes de sua estadia expirar ou assim que você determinar a necessidade de alterar ou estender o status. Falha ao arquivar
+										antes da data de expiração pode ser dispensado se você demonstrar ao apresentar o pedido que:
 									</p>
 
 									<!-- List -->
-									<ul class="txt-list">
-												
+									<ul class="txt-list">	
 										<li>1. O atraso foi devido a circunstâncias extraordinárias fora de seu controle;</li>
 										<li>2. A duração do atraso foi razoável;</li>
 										<li>3. Você não violou seu status;</li>
 										<li>4. Você ainda é um não-imigrante de boa-fé; e</li>
 										<li>5. Você não está em processo de remoção.</li>
-
 									</ul>
 									<!-- Text -->
 									<p>Os não-imigrantes nos Estados Unidos podem solicitar uma extensão de estadia ou uma mudança de status nesta solicitação, exceto conforme
-anotado na seção Quem não pode arquivar o Formulário I-539 destas Instruções.
-
+										anotado na seção Quem não pode arquivar o Formulário I-539 destas Instruções.
 									</p>
 
 									<p>Vários candidatos
-Você pode incluir seu cônjuge e seus filhos solteiros menores de 21 anos como co-requerentes em seu pedido de
-a mesma extensão ou mudança de status, mas somente se você estiver agora no mesmo status ou se todos estiverem em status derivado.</p>
+										Você pode incluir seu cônjuge e seus filhos solteiros menores de 21 anos como co-requerentes em seu pedido de
+										a mesma extensão ou mudança de status, mas somente se você estiver agora no mesmo status ou se todos estiverem em status derivado.</p>
 
-								<p>
-								Você deve preencher o Formulário I-539A para cada pessoa que deseja incluir em sua inscrição. Se você precisar de adicionais
-espaço, você pode imprimir cópias adicionais do Formulário I-539A para preencher para outros co-requerentes.
-NOTA: As extensões concedidas a membros de um grupo familiar devem ser pelo mesmo período de tempo. O período mais curto
-concedido a qualquer membro da família será concedido a todos os membros da família.
-								</p>
+									<p>
+										Você deve preencher o Formulário I-539A para cada pessoa que deseja incluir em sua inscrição. Se você precisar de adicionais
+										espaço, você pode imprimir cópias adicionais do Formulário I-539A para preencher para outros co-requerentes.
+										NOTA: As extensões concedidas a membros de um grupo familiar devem ser pelo mesmo período de tempo. O período mais curto
+										concedido a qualquer membro da família será concedido a todos os membros da família.
+									</p>
 
-
-									<!-- Image -->
 						 			<div class="blog-post-img blog-video text-center mb-30">
-
-						 				<!-- Preview Image -->		
 										<img class="img-fluid" src="images/image-11.jpg" alt="about-image" />	
-
-										<!-- Change the link HERE!!! -->	
 										<div class="video-preview icon-lg white-color">
 											<a class="video-popup1" href="https://www.youtube.com/embed/SZEflIVnhH8">
 												<span class="flaticon-159-play-button"></span>											
 											</a>
 										</div>
 									</div>
-
-
 									<div class="row">
-										
 										<div class="col-lg-6">
-											
-											<!-- Small Title -->
 											<h5 class="h5-md">Listening</h5>
-
 											<!-- Text -->
 											<p>Quisque laoreet turpis urna augue, viverra a augue eget, dictum tempor diam vehicula 
 											   vel imperdiet varius viverra massa lorem. Fusce eu cursus nulla vitae massa dictum 
 											</p>
-
 										</div>
-
 										<div class="col-lg-6">
-											
 											<!-- Small Title -->
 											<h5 class="h5-md">Reading</h5>
-
 											<!-- Text -->
 											<p>Quisque laoreet turpis urna augue, viverra a augue eget, dictum tempor diam vehicula 
 											   vel imperdiet varius viverra massa lorem. Fusce eu cursus nulla vitae massa dictum 
 											</p>
-
 										</div>
-
 										<div class="col-lg-6">
-											
-											<!-- Small Title -->
 											<h5 class="h5-md">Writing</h5>
-
-											<!-- Text -->
 											<p>Quisque laoreet turpis urna augue, viverra a augue eget, dictum tempor diam vehicula 
 											   vel imperdiet varius viverra massa lorem. Fusce eu cursus nulla vitae massa dictum 
 											</p>
-
 										</div>
-
 										<div class="col-lg-6">
 											<h5 class="h5-md">Speaking</h5>
-
 											<!-- Text -->
 											<p>Quisque laoreet turpis urna augue, viverra a augue eget, dictum tempor diam vehicula 
 											   vel imperdiet varius viverra massa lorem. Fusce eu cursus nulla vitae massa dictum 
 											</p>
-
 										</div>
-
 									</div>
 
 									<!-- Small Title -->	
@@ -210,11 +178,9 @@ concedido a qualquer membro da família será concedido a todos os membros da fa
 
 									<!-- List -->
 									<ul class="txt-list">
-												
 										<li>Tempor magna ipsum vitae purus primis pretium</li>
 										<li>An magnis nulla dolor sapien augue erat iaculis</li>
 										<li>Pretium ligula rutrum luctus blandit porta justo</li>
-
 									</ul>
 
 									<!-- Small Title -->	
@@ -237,7 +203,7 @@ concedido a qualquer membro da família será concedido a todos os membros da fa
 										<li>Quaerat sodales sapien undo euismod purus and blandit (Luctus Blandit Porta)</li>
 									</ul>
 
-									<div id="checkout-button" data-secret="<?= $stripe->id ?>" class="btn btn-md btn-primary tra-white-hover btn-arrow">INICIAR APLICAÇÃO</div>
+									<div id="checkout-button" data-secret="<?= $stripe->id ?>" class="btn btn-primary btn-lg btn-arrow btn-application">INICIAR APLICAÇÃO</div>
 
 								</div>
 							</div>	<!-- END ABOUT TEXT -->
@@ -304,194 +270,8 @@ concedido a qualquer membro da família será concedido a todos os membros da fa
 
 
 
-				<!-- SERVICES-9
-				============================================= -->
-				<section id="services-9" class="wide-100 services-section division">
-					<div class="container">
-
-
-						<!-- SECTION TITLE -->
-						<div class="row">	
-							<div class="col-md-12 section-title center">		
-
-				 				<!-- Title -->
-								<h2 class="h2-xs">Our Most Popular Courses</h2>
-
-								<!-- Text -->	
-								<p class="p-md">Cursus porta, feugiat primis in ultrice ligula risus auctor tempus dolor feugiat, 
-								   felis lacinia risus interdum auctor id viverra dolor iaculis luctus placerat and massa
-								</p> 
-
-							</div>
-						</div>	 <!-- END SECTION TITLE -->	
-
-
-						<!-- SERVICE BOXES CAROUSEL -->
-						<div class="row">
-							<div class="col-lg-12">
-								<div class="owl-carousel owl-theme owl-loaded services-carousel">
-
-
-									<!-- SERVICE BOX #1 -->
-									<div class="sbox-9 sbox-9-color">
-										
-										<!-- Image -->
-										<img class="img-fluid" src="images/course-1-img.jpg" alt="service-image" />	
-
-										<!-- Text -->
-										<div class="sbox-9-txt">	
-
-											<!-- Title -->
-											<h5 class="h5-lg">General English</h5>
-
-											<!-- Text -->
-											<p class="p-sm">Cursus porta feugiat and  primis ultrice ligula risus auctor, tempus a dolor 
-											   feugiat felis lobortis
-											</p>
-
-											<!--Link -->
-											<a href="course-details.html">Read More <i class="fas fa-caret-right"></i></a>
-
-										</div>
-
-									</div>							
-
-
-									<!-- SERVICE BOX #2 -->
-									<div class="sbox-9 sbox-9-color">
-										
-										<!-- Image -->
-										<img class="img-fluid" src="images/course-5-img.jpg" alt="service-image" />	
-
-										<!-- Text -->
-										<div class="sbox-9-txt">	
-
-											<!-- Title -->
-											<h5 class="h5-lg">Fundamentals of English Grammar</h5>
-
-											<!-- Text -->
-											<p class="p-sm">Cursus porta feugiat and  primis ultrice ligula risus auctor, tempus a dolor 
-											   feugiat felis lobortis
-											</p>
-
-											<!--Link -->
-											<a href="course-details.html">Read More <i class="fas fa-caret-right"></i></a>
-
-										</div>
-
-									</div>							
-
-
-									<!-- SERVICE BOX #3 -->
-									<div class="sbox-9 sbox-9-color">
-										
-										<!-- Image -->
-										<img class="img-fluid" src="images/course-3-img.jpg" alt="service-image" />	
-
-										<!-- Text -->
-										<div class="sbox-9-txt">
-
-											<!-- Title -->
-											<h5 class="h5-lg">Academic Writing</h5>
-
-											<!-- Text -->
-											<p class="p-sm">Cursus porta feugiat and  primis ultrice ligula risus auctor, tempus a dolor 
-											   feugiat felis lobortis
-											</p>
-
-											<!--Link -->
-											<a href="course-details.html">Read More <i class="fas fa-caret-right"></i></a>
-
-										</div>	
-
-									</div>							
-
-
-									<!-- SERVICE BOX #4 -->
-									<div class="sbox-9 sbox-9-color">
-										
-										<!-- Image -->
-										<img class="img-fluid" src="images/course-4-img.jpg" alt="service-image" />	
-
-										<!-- Text -->
-										<div class="sbox-9-txt">
-
-											<!-- Title -->
-											<h5 class="h5-lg">English for Career Development</h5>
-
-											<!-- Text -->
-											<p class="p-sm">Cursus porta feugiat and  primis ultrice ligula risus auctor, tempus a dolor 
-											   feugiat felis lobortis
-											</p>
-
-											<!--Link -->
-											<a href="course-details.html">Read More <i class="fas fa-caret-right"></i></a>
-
-										</div>
-
-									</div>							
-
-
-									<!-- SERVICE BOX #5 -->
-									<div class="sbox-9 sbox-9-color">
-										
-										<!-- Image -->
-										<img class="img-fluid" src="images/course-2-img.jpg" alt="service-image" />	
-
-										<!-- Text -->
-										<div class="sbox-9-txt">	
-
-											<!-- Title -->
-											<h5 class="h5-lg">IELTS Course</h5>
-
-											<!-- Text -->
-											<p class="p-sm">Cursus porta feugiat and  primis ultrice ligula risus auctor, tempus a dolor 
-											   feugiat felis lobortis
-											</p>
-
-											<!--Link -->
-											<a href="course-details.html">Read More <i class="fas fa-caret-right"></i></a>
-
-										</div>
-
-									</div>							
-
-
-									<!-- SERVICE BOX #6 -->
-									<div class="sbox-9 sbox-9-color">
-										
-										<!-- Image -->
-										<img class="img-fluid" src="images/course-6-img.jpg" alt="service-image" />	
-
-										<!-- Text -->
-										<div class="sbox-9-txt">
-
-											<!-- Title -->
-											<h5 class="h5-lg">English Grammar and Punctuation</h5>
-
-											<!-- Text -->
-											<p class="p-sm">Cursus porta feugiat and  primis ultrice ligula risus auctor, tempus a dolor 
-											   feugiat felis lobortis
-											</p>
-
-											<!--Link -->
-											<a href="course-details.html">Read More <i class="fas fa-caret-right"></i></a>
-
-										</div>
-
-									</div>							
-
-
-								</div>
-							</div>		
-						</div>	  <!-- END SERVICE BOXES CAROUSEL -->
-
-
-					</div>     <!-- End container -->
-				</section>	<!-- END SERVICES-9 -->
-				
-	<!-- ABOUT-6
-				============================================= -->
+		
+	<!-- ABOUT-6============================================= -->
 				<section id="about-6" class="bg-scroll pt-100 about-section division">
 					<div class="container white-color">
 						<div class="row d-flex align-items-center">
