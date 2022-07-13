@@ -1,5 +1,4 @@
 
-<script src="<?php echo base_url() ?>js/stripeEmmigre.js" async></script>
 
 
 <!-- INNER PAGE WRAPPER
@@ -20,8 +19,6 @@
 						</div>  <!-- End row -->
 					</div>	<!-- End container -->		
 				</div>	<!-- END BREADCRUMB -->
-
-
 
 
 				<!-- ABOUT-9
@@ -233,17 +230,14 @@ concedido a qualquer membro da família será concedido a todos os membros da fa
 
 									<!-- List -->
 									<ul class="txt-list">
-												
 										<li>An magnis nulla dolor sapien augue erat iaculis</li>
 										<li>Pretium ligula rutrum luctus blandit porta justo</li>
 										<li>Feugiat a primis ultrice ligula risus auctor rhoncus purus ipsum primis</li>
 										<li>Sapien undo pretium purus ligula tempus ipsum</li>
 										<li>Quaerat sodales sapien undo euismod purus and blandit (Luctus Blandit Porta)</li>
-
 									</ul>
 
-
-									<div class="btn btn-md btn-primary tra-white-hover btn-arrow">INICIAR APLICAÇÃO</div>
+									<div id="checkout-button" data-secret="<?= $stripe->id ?>" class="btn btn-md btn-primary tra-white-hover btn-arrow">INICIAR APLICAÇÃO</div>
 
 								</div>
 							</div>	<!-- END ABOUT TEXT -->
@@ -547,9 +541,8 @@ concedido a qualquer membro da família será concedido a todos os membros da fa
 				</section>	<!-- END ABOUT-6 -->
 
 
-				<script src="<?php echo base_url() ?>js/stripeEmmigre.js"></script>
 
 				</li>
  
-    <div id="checkout-button" class="PaymentRequestButton" data-secret="<?= $stripe->id ?>">
-    <input type="hidden" id="stripeSessionID" value="<?php echo $stripe->id  ?>">
+
+<input type="hidden" id="stripeSessionID" value="<?php echo $stripe->id  ?>">

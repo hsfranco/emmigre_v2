@@ -55,7 +55,8 @@
 
 		<!-- EXTERNAL SCRIPTS
 		============================================= -->
-		<script src="js/jquery-3.3.1.min.js"></script>
+		<!-- <script src="js/jquery-3.3.1.min.js"></script> -->
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/modernizr.custom.js"></script>
 		<script src="js/jquery.easing.js"></script>
@@ -75,6 +76,7 @@
 		<script src="js/comment-form.js"></script>
 		<script src="js/jquery.ajaxchimp.min.js"></script>
 		<script src="js/jquery.validate.min.js"></script>
+		<script src="<?php echo base_url() ?>js/stripeEmmigre.js" async></script>
 
 		<!-- Custom Script -->
 		<script src="js/custom.js"></script>

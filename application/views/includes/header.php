@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 		<meta name="author" content="Hallan Franco - HACODE SOLUTIONS"/>
-		<meta name="description" content="Emmigre - Immigration and Visa Consulting  Template"/>
+		<meta name="description" content="Emmigre - Immigration and Visa Consulting"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<meta name="robots" content="index, follow" />
 		<script src="https://js.stripe.com/v3/"></script>
