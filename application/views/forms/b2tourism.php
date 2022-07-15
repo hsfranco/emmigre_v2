@@ -1,11 +1,8 @@
-
 <div class="container" id="questionOne">
     <div class="progress">
-        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 33%"></div>
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 10%"></div>
     </div>
-
     <hr>
-
     <form>
         <div class="form-group"> <!-- Radio group !-->
             <label class="control-label"> 1) Você está atualmente nos EUA com um status de visto válido (status de imigração dos EUA)? </label>
@@ -32,7 +29,7 @@
 
 <div class="container" id="questionTwo">
     <div class="progress">
-        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 66%"></div>
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
     </div>
     <hr>
     <form>
@@ -67,7 +64,7 @@
 
 <div class="container" id="questionTree">
     <div class="progress">
-        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
     </div>
     <hr>
     <form>
@@ -143,10 +140,15 @@
 </div>
 
 
-
-
-<div class="container" id="SuccessMessage">
-    <img src="<?php echo base_url() ?>" alt="">
+<div class="container text-center" id="SuccessMessage">
+        <div class="form-group"> <!-- Radio group !-->
+            <label class="control-label"> Você passou no teste e é elegivel para aplicação deste visto!</label>
+        </div>
+    <img src="<?php echo base_url() ?>/images/approved-160121_640.png" alt="" style="max-width:150px;">
+    </br>
+    <hr>
+    <button id="checkout-button" type="submit" data-secret="<?= $stripe->id ?>" class="btn btn-primary btn-lg btn-arrow btn-application">INICIAR APLICAÇÃO</button>
+    <input type="hidden" id="stripeSessionID" value="<?php echo $stripe->id  ?>">
 </div>
 
 

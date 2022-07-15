@@ -29,12 +29,11 @@
 		<link href="<?php echo base_url() ?>/css/bootstrap.min.css" rel="stylesheet">
 
 		<!-- FONT ICONS -->
-		<link href="<?php echo base_url() ?>/../../../../use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" rel="stylesheet" crossorigin="anonymous">
 		<link href="<?php echo base_url() ?>css/flaticon.css" rel="stylesheet">
 
 		<!-- PLUGINS STYLESHEET -->
 		<link href="<?php echo base_url() ?>css/menu.css" rel="stylesheet">
-		<link id="effect" href="css/dropdown-effects/fade-down.css" media="all" rel="stylesheet">
+		<link id="effect" href="<?php echo base_url() ?>css/dropdown-effects/fade-down.css" media="all" rel="stylesheet">
 		<link href="<?php echo base_url() ?>css/tweenmax.css" rel="stylesheet">
 		<link href="<?php echo base_url() ?>css/magnific-popup.css" rel="stylesheet">
 		<link href="<?php echo base_url() ?>css/owl.carousel.min.css" rel="stylesheet">

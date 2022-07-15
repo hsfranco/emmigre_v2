@@ -2,7 +2,8 @@
   var checkoutButton = document.getElementById('checkout-button');
   //var stripe = Stripe('pk_test_51IIhCuCH8UypDiwQijWukKmGdRb2hVsQP1UgsHhiP6nqNcAswYOxZX5Xp5qPAb1KkU83YzqW6SYHjxt2S1PLzLrl00ppKQIT94');
   var stripe = Stripe('pk_test_51IIhCuCH8UypDiwQijWukKmGdRb2hVsQP1UgsHhiP6nqNcAswYOxZX5Xp5qPAb1KkU83YzqW6SYHjxt2S1PLzLrl00ppKQIT94');
-  
+  console.log(checkoutButton);
+
   checkoutButton.addEventListener('click', function() {
     stripe.redirectToCheckout({
       // Make the id field from the Checkout Session creation API response

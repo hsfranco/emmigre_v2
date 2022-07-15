@@ -203,7 +203,7 @@
 										<li>Quaerat sodales sapien undo euismod purus and blandit (Luctus Blandit Porta)</li>
 									</ul>
 
-									<div id="checkout-button" data-secret="<?= $stripe->id ?>" class="btn btn-primary btn-lg btn-arrow btn-application">INICIAR APLICAÇÃO</div>
+									<a href="<?php echo base_url() ?>questionario/b2-visto-turista"  class="btn btn-primary btn-lg btn-arrow btn-application">INICIAR TESTE DE ELEGIBILIDADE</a>
 
 								</div>
 							</div>	<!-- END ABOUT TEXT -->
@@ -224,10 +224,7 @@
 										<li><a href="#" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> OET (Occupational English Test)</a></li>
 										<li><a href="#" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> Spoken English</a></li>
 									</ul>
-
 								</div>
-
-
 								<!-- SIDEBAR COUNTRIES --> 
 								<div class="sidebar-countries sidebar-div mb-50">
 										
@@ -236,24 +233,17 @@
 
 									<!-- List -->
 									<ul class="sidebar-country-list clearfix">
-
 										<li><a href="country-detail.html">
 											<img class="img-fluid" src="images/sidebar-canada.jpg" alt="sidebar-image" />Canada</a>
 										</li>
-
 										<li><a href="country-detail.html">
 											<img class="img-fluid" src="images/sidebar-uk.jpg" alt="sidebar-image" />United Kingdom</a>
 										</li>
-
 										<li><a href="country-detail.html">
 											<img class="img-fluid" src="images/sidebar-usa.jpg" alt="sidebar-image" />United States of America</a>
 										</li>
-
 									</ul>
-
 								</div>
-							
-
 							</aside>	<!-- END SIDEBAR -->
 
 
@@ -261,16 +251,11 @@
 					</div>     <!-- End container -->
 				</section>	<!-- END ABOUT-9 -->
 
-
-
-
 				<!-- HORIZONTAL GREY LINE -->
 				<div class="section-divider"><div class="container"><div class="row"><div class="grey-border"></div></div></div></div>
 
 
 
-
-		
 	<!-- ABOUT-6============================================= -->
 				<section id="about-6" class="bg-scroll pt-100 about-section division">
 					<div class="container white-color">
@@ -319,10 +304,5 @@
 						</div>    <!-- End row -->
 					</div>     <!-- End container -->
 				</section>	<!-- END ABOUT-6 -->
-
-
-
-				</li>
+			</li>
  
-
-<input type="hidden" id="stripeSessionID" value="<?php echo $stripe->id  ?>">
