@@ -8,7 +8,7 @@
 		<meta name="description" content="Emmigre - Immigration and Visa Consulting"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<meta name="robots" content="index, follow" />
-		<script src="https://js.stripe.com/v3/"></script>
+		
   		<!-- SITE TITLE -->
 		<title>Emmigre - Imigração e consultoria de vistos </title>
 
@@ -26,21 +26,21 @@
 		<link href="https://fonts.googleapis.com/css?family=Muli:400,600,700,800,900&amp;display=swap" rel="stylesheet">
 
 		<!-- BOOTSTRAP CSS -->
-		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="<?php echo base_url() ?>/css/bootstrap.min.css" rel="stylesheet">
 
 		<!-- FONT ICONS -->
-		<link href="../../../../use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" rel="stylesheet" crossorigin="anonymous">
-		<link href="css/flaticon.css" rel="stylesheet">
+		<link href="<?php echo base_url() ?>/../../../../use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" rel="stylesheet" crossorigin="anonymous">
+		<link href="<?php echo base_url() ?>css/flaticon.css" rel="stylesheet">
 
 		<!-- PLUGINS STYLESHEET -->
-		<link href="css/menu.css" rel="stylesheet">
+		<link href="<?php echo base_url() ?>css/menu.css" rel="stylesheet">
 		<link id="effect" href="css/dropdown-effects/fade-down.css" media="all" rel="stylesheet">
-		<link href="css/tweenmax.css" rel="stylesheet">
-		<link href="css/magnific-popup.css" rel="stylesheet">
-		<link href="css/owl.carousel.min.css" rel="stylesheet">
-		<link href="css/owl.theme.default.min.css" rel="stylesheet">
-		<link href="css/red.css" rel="stylesheet">
-		<link href="css/responsive.css" rel="stylesheet">
+		<link href="<?php echo base_url() ?>css/tweenmax.css" rel="stylesheet">
+		<link href="<?php echo base_url() ?>css/magnific-popup.css" rel="stylesheet">
+		<link href="<?php echo base_url() ?>css/owl.carousel.min.css" rel="stylesheet">
+		<link href="<?php echo base_url() ?>css/owl.theme.default.min.css" rel="stylesheet">
+		<link href="<?php echo base_url() ?>css/red.css" rel="stylesheet">
+		<link href="<?php echo base_url() ?>css/responsive.css" rel="stylesheet">
 	</head>
 
 
@@ -56,13 +56,13 @@
 		<div class="header-wrapper">
 			<div class="wsmobileheader clearfix">
 				<a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
-				<span class="smllogo"><img src="images/logo-black.png" width="200" height="50" alt="mobile-logo"/></span>
+				<span class="smllogo"><img src="<?php echo base_url() ?>images/logo-black.png" width="200" height="50" alt="mobile-logo"/></span>
 				<a href="tel:123456789" class="callusbtn"><i class="fas fa-phone"></i></a>
 			</div>
 			<div class="wsmainfull menu clearfix">
 				<div class="wsmainwp clearfix">
-					<div class="desktoplogo"><a href="#hero-1" class="logo-black"><img src="images/logo-black.png" width="180" height="45" alt="header-logo"></a></div>
-					<div class="desktoplogo"><a href="#hero-1" class="logo-white"><img src="images/logo-white.png" width="180" height="45" alt="header-logo"></a></div>
+					<div class="desktoplogo"><a href="#hero-1" class="logo-black"><img src="<?php echo base_url() ?>images/logo-black.png" width="180" height="45" alt="header-logo"></a></div>
+					<div class="desktoplogo"><a href="#hero-1" class="logo-white"><img src="<?php echo base_url() ?>images/logo-white.png" width="180" height="45" alt="header-logo"></a></div>
 					<nav class="wsmenu clearfix blue-header">
 					<ul class="wsmenu-list">
 						<li aria-haspopup="true"><a href="<?php echo base_url() ?>">Home </a> </li>

@@ -6,9 +6,7 @@ class Stripe_model extends CI_Model {
       parent::__construct();
 
       require_once(APPPATH. "../vendor/stripe/stripe-php/init.php");
- 
-     
-  
+
       // TEST API KEYS
       \Stripe\Stripe::setApiKey('sk_test_51IIhCuCH8UypDiwQech0ZQdDFHlTVK1vSGwpyvcPlHKGG41kbWFKQFk42HjpMO5CBXj9Hrd7qOkFzS2OeMjmmMsi00pmp9miU5');
     }

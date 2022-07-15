@@ -13,6 +13,7 @@ $route['/'] = 'PagesController/index';
  *                  PORTUGUESES  VISAS PAGES            * 
  ********************************************************/
 $route['b2-visto-turista'] = 'VisasController/b2tourism';
+$route['questionario/b2-visto-turista'] = 'SmartformsController/b2tourism';
 
 
 /********************************************************

@@ -11,7 +11,7 @@
 								<h5 class="h5-md">Contato</h5>
 								<p class="p-sm">Boca Raton - Florida</p>
 								<!-- Email -->
-								<p class="p-sm foo-email">Email: <a href="mailto:yourdomain@mail.com">info@emmigre.com</a></p>
+								<p class="p-sm foo-email">Email: <a href="mailto:info@emmigre.com">info@emmigre.com</a></p>
 							</div>
 						</div>
 						<div class="col-lg-4 col-xl-4">
@@ -37,7 +37,7 @@
 					<div class="bottom-footer">
 						<div class="row d-flex align-items-center">
 							<div class="col-md-4 col-lg-3">
-								<img src="images/logo-black.png" width="210" height="50" alt="footer-logo">
+								<img src="<?php echo base_url() ?>images/logo-black.png" width="210" height="50" alt="footer-logo">
 							</div>
 							<div class="col-md-8 col-lg-9 text-right">
 								<p class="footer-copyright">&copy; Copyright <span>Emmigre 2022</span>. Todos os direitos resevados - Um produto do Findus Brasil Group</p>
@@ -56,30 +56,32 @@
 		<!-- EXTERNAL SCRIPTS
 		============================================= -->
 		<!-- <script src="js/jquery-3.3.1.min.js"></script> -->
+		<script src="https://js.stripe.com/v3/"></script>
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/modernizr.custom.js"></script>
-		<script src="js/jquery.easing.js"></script>
-		<script src="js/jquery.appear.js"></script>
-		<script src="js/jquery.stellar.min.js"></script>
-		<script src="js/menu.js"></script>
-		<script src="js/materialize.js"></script>
-		<script src="js/jquery.scrollto.js"></script>
-		<script src="js/owl.carousel.min.js"></script>
-		<script src="js/imagesloaded.pkgd.min.js"></script>
-		<script src="js/isotope.pkgd.min.js"></script>
-		<script src="js/jquery.magnific-popup.min.js"></script>
-		<script src="js/hero-request-form.js"></script>
-		<script src="js/hero-register-form.js"></script>
-		<script src="js/request-form.js"></script>
-		<script src="js/contact-form.js"></script>
-		<script src="js/comment-form.js"></script>
-		<script src="js/jquery.ajaxchimp.min.js"></script>
-		<script src="js/jquery.validate.min.js"></script>
+		<script src="<?php echo base_url() ?>js/bootstrap.min.js"></script>
+		<script src="<?php echo base_url() ?>js/modernizr.custom.js"></script>
+		<script src="<?php echo base_url() ?>js/jquery.easing.js"></script>
+		<script src="<?php echo base_url() ?>js/jquery.appear.js"></script>
+		<script src="<?php echo base_url() ?>js/jquery.stellar.min.js"></script>
+		<script src="<?php echo base_url() ?>js/menu.js"></script>
+		<script src="<?php echo base_url() ?>js/materialize.js"></script>
+		<script src="<?php echo base_url() ?>js/jquery.scrollto.js"></script>
+		<script src="<?php echo base_url() ?>js/owl.carousel.min.js"></script>
+		<script src="<?php echo base_url() ?>js/imagesloaded.pkgd.min.js"></script>
+		<script src="<?php echo base_url() ?>js/isotope.pkgd.min.js"></script>
+		<script src="<?php echo base_url() ?>js/jquery.magnific-popup.min.js"></script>
+		<script src="<?php echo base_url() ?>js/hero-request-form.js"></script>
+		<script src="<?php echo base_url() ?>js/hero-register-form.js"></script>
+		<script src="<?php echo base_url() ?>js/request-form.js"></script>
+		<script src="<?php echo base_url() ?>js/contact-form.js"></script>
+		<script src="<?php echo base_url() ?>js/comment-form.js"></script>
+		<script src="<?php echo base_url() ?>js/jquery.ajaxchimp.min.js"></script>
+		<script src="<?php echo base_url() ?>js/jquery.validate.min.js"></script>
 		<script src="<?php echo base_url() ?>js/stripeEmmigre.js" async></script>
+		<script src="<?php echo base_url() ?>js/SmartForms/b2tourism.js"></script>
 
 		<!-- Custom Script -->
-		<script src="js/custom.js"></script>
+		<script src="<?php echo base_url() ?>js/custom.js"></script>
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-77746659-4"></script>
