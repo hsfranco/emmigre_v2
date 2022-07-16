@@ -1,6 +1,5 @@
 
     <style>
-
         h1 {
           color: #88B04B;
           font-family: "Nunito Sans", "Helvetica Neue", sans-serif;

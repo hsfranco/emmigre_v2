@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class CallBacksController extends CI_Controller {
+class CallbacksController extends CI_Controller {
 
 	public function customer_subscription_created() {
 
