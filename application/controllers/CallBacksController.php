@@ -3,33 +3,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class CallBacksController extends CI_Controller {
 
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see https://codeigniter.com/user_guide/general/urls.html
-	 */
-	public function cognito()
-	{
+	public function customer_subscription_created() {
 
-	}
+		$data = json_decode(file_get_contents('php://input'), true);
+		$dataText = json_encode(file_get_contents('php://input'), true);
+		
+		if (!empty($data)) {
+		 
+		}
+	
+		$this->db->insert('tbl_Logs', ['ds_Log' =>   $data ,
+									   'dt_Log' =>  date('Y-m-d H:i:s')]);
+	  }
+	
+	  public function payment_intent_succeeded() {
 
-
-	public function login()
-	{
-		$data = [];
-
-		$this->load->view('includes/header');
-		$this->load->view('pages/login', $data);
-		$this->load->view('includes/footer');
+		$data = json_decode(file_get_contents('php://input'), true);
+		$dataText = json_encode(file_get_contents('php://input'), true);
+		
+		if (!empty($data)) {
+		  if (!empty($data['data'])) {
+	
+				$this->db->insert('tbl_Logs', ['ds_Log' =>  $data,
+											   'dt_Log' =>  date('Y-m-d H:i:s')]);
+	
+		  }
+		}
 	}
 }

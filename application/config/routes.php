@@ -10,10 +10,11 @@ $route['/'] = 'PagesController/index';
 
 
 /********************************************************
- *                  PORTUGUESES  VISAS PAGES            * 
+ *                  PORTUGUESES VISAS PAGES             * 
  ********************************************************/
 $route['b2-visto-turista'] = 'VisasController/b2tourism';
 $route['questionario/b2-visto-turista'] = 'SmartformsController/b2tourism';
+$route['b2-visto-turista/confirmacao'] = 'SmartformsController/confirmacaob2tourism';
 
 
 /********************************************************
@@ -23,6 +24,12 @@ $route['politica-de-privacidade'] = 'PagesController/index';
 $route['/termos-e-condicoes'] = 'PagesController/index';
 $route['/cookies'] = 'PagesController/index';
 $route['/sobre-nos'] = 'PagesController/index';
+
+/********************************************************
+ *                  STRIPE CALLBACKS                    * 
+ ********************************************************/
+$routes['callbacks/payment_intent_succeeded'] = 'callbacks/payment_intent_succeeded';
+$routes['callbacks/customer_subscription_created'] = 'callbacks/customer_subscription_created';
 
 
 /********************************************************
