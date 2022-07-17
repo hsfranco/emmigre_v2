@@ -35,18 +35,15 @@ class CallbacksController extends CI_Controller {
 											   'cd_Method' => '']);
 
 			    $customer = $this->Stripe_model->getCustomer($data['data']['object']["customer"]);
-				//$charge = $this->Stripe_model->getCharges($data['data']['charges']['data']['id']);
-        
 				$this->db->insert('tbl_Payments', ['id_StripePayment' => $data['data']['object']['id'],
-												   'cd_Status' => '',
+												   'cd_Status' => 'newpayment',
 												   'dt_Register' => date('Y-m-d H:i:s'),
 												   'url_Receipt' => '',
 												   'ds_CustomerName' => $customer->name,
 												   'ds_CustomerEmail' => $customer->email,
 												   'cd_CustomerId' => $data['data']['object']["customer"]]);
 
-												   //['data']['email']
-	
+												
 		  }
 		}
 	}
