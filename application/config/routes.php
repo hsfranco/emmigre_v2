@@ -32,7 +32,6 @@ $route['callbacks/payment_intent_succeeded'] = 'CallbacksController/payment_inte
 $route['callbacks/customer_subscription_created'] = 'CallbacksController/customer_subscription_created';
 
 
-
 /********************************************************
  *                  JOBS ROUTES                         * 
  ********************************************************/
