@@ -11,7 +11,6 @@ class Stripe_model extends CI_Model {
       \Stripe\Stripe::setApiKey('sk_test_51IIhCuCH8UypDiwQech0ZQdDFHlTVK1vSGwpyvcPlHKGG41kbWFKQFk42HjpMO5CBXj9Hrd7qOkFzS2OeMjmmMsi00pmp9miU5');
     }
 
-
     public function getCustomer($code)  {
       $stripe = new \Stripe\StripeClient(
         'sk_test_51IIhCuCH8UypDiwQech0ZQdDFHlTVK1vSGwpyvcPlHKGG41kbWFKQFk42HjpMO5CBXj9Hrd7qOkFzS2OeMjmmMsi00pmp9miU5'
@@ -20,26 +19,46 @@ class Stripe_model extends CI_Model {
         $code,
         []
       );
-   
     }
 
- public function CreatePaymentSession() {
-   $success_url = base_url() . "/b2-visto-turista/confirmacao";
-   $cancel_url = base_url() . "/b2-visto-turista";
+    public function getPaymentIntent($code) {
+      $stripe = new \Stripe\StripeClient(
+        'sk_test_51IIhCuCH8UypDiwQech0ZQdDFHlTVK1vSGwpyvcPlHKGG41kbWFKQFk42HjpMO5CBXj9Hrd7qOkFzS2OeMjmmMsi00pmp9miU5'
+      );
+      $stripe->paymentIntents->retrieve(
+        $code,
+        []
+      );
+    }
 
-    $session['stripe'] = \Stripe\Checkout\Session::create([
-      'payment_method_types' => ['card'],
-      'mode' => 'payment',
-      'line_items' => [[
-        'price' => 'price_1LK009CH8UypDiwQECIwEdqx',
-        'quantity' => 1
-      ]],
-      'success_url' => $success_url,
-      'cancel_url' =>  $cancel_url,
-    ]);
 
-   
-      return $session;
- }
-}
+    public function getCharges($code) {
+      $stripe = new \Stripe\StripeClient(
+        'sk_test_51IIhCuCH8UypDiwQech0ZQdDFHlTVK1vSGwpyvcPlHKGG41kbWFKQFk42HjpMO5CBXj9Hrd7qOkFzS2OeMjmmMsi00pmp9miU5'
+      );
+      $stripe->charges->retrieve(
+        $code,
+        []
+      );
+    }
+
+    public function CreatePaymentSession() {
+      $success_url = base_url() . "/b2-visto-turista/confirmacao";
+      $cancel_url = base_url() . "/b2-visto-turista";
+
+        $session['stripe'] = \Stripe\Checkout\Session::create([
+          'payment_method_types' => ['card'],
+          'mode' => 'payment',
+          'line_items' => [[
+            'price' => 'price_1LK009CH8UypDiwQECIwEdqx',
+            'quantity' => 1
+          ]],
+          'success_url' => $success_url,
+          'cancel_url' =>  $cancel_url,
+        ]);
+
+      
+          return $session;
+    }
+    }
 ?>

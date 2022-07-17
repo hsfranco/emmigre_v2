@@ -28,8 +28,8 @@ $route['sobre-nos'] = 'PagesController/index';
 /********************************************************
  *                  STRIPE CALLBACKS                    * 
  ********************************************************/
-$routes['callbacks/payment_intent_succeeded'] = 'CallbacksController/payment_intent_succeeded';
-$routes['callbacks/customer_subscription_created'] = 'CallbacksController/customer_subscription_created';
+$route['callbacks/payment_intent_succeeded'] = 'CallbacksController/payment_intent_succeeded';
+$route['callbacks/customer_subscription_created'] = 'CallbacksController/customer_subscription_created';
 
 
 /********************************************************

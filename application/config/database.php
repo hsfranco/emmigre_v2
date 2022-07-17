@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '3.227.126.190:3333',
-	'username' => 'accessbd',
-	'password' => 'Must@1920',
-	'database' => 'db_intramust',
+	'hostname' => 'hacodesolutions.cvcz09ccdv4u.us-east-1.rds.amazonaws.com',
+	'username' => 'hacodesys',
+	'password' => '9sZrBIYLS9lPUur!6G2022',
+	'database' => 'db_syncronization_emmigre',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
