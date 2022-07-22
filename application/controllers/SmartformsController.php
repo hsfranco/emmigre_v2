@@ -27,6 +27,9 @@ class SmartformsController extends CI_Controller {
 		$this->load->view('includes/header', $header);
 		$this->load->view('forms/b2tourism', $data);
 		$this->load->view('includes/footer');
+
+
+		$this->output->cache(5);
 	}
 
 
@@ -40,5 +43,8 @@ class SmartformsController extends CI_Controller {
 		$this->load->view('includes/header', $header);
 		$this->load->view('confirmation/b2tourism', $data);
 		$this->load->view('includes/footer');
+
+
+		$this->output->cache(5);
 	}
 }

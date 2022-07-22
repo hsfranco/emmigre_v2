@@ -30,7 +30,7 @@ $route['sobre-nos'] = 'PagesController/index';
  ********************************************************/
 $route['callbacks/payment_intent_succeeded'] = 'CallbacksController/payment_intent_succeeded';
 $route['callbacks/customer_subscription_created'] = 'CallbacksController/customer_subscription_created';
-
+$route['callbacks/docketwise_auth'] = 'CallbacksController/docketwise_auth';
 
 /********************************************************
  *                  JOBS ROUTES                         * 

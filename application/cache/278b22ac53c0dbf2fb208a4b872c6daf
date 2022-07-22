@@ -1,0 +1,217 @@
+a:2:{s:6:"expire";i:1658314014;s:7:"headers";a:0:{}}ENDCI---><!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="author" content="Hallan Franco - HACODE SOLUTIONS"/>
+		<meta name="description" content="Emmigre - Immigration and Visa Consulting"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta name="robots" content="index, follow" />
+		
+  		<!-- SITE TITLE -->
+		<title>Emmigre - Imigração e consultoria de vistos </title>
+
+		<!-- FAVICON AND TOUCH ICONS  -->
+		<link rel="shortcut icon" href="http://localhost:8888/emmigre_v2/images/748050_flag_usa_icon.png" type="image/x-icon">
+		<link rel="icon" href="http://localhost:8888/emmigre_v2/images/748050_flag_usa_icon.png" type="image/x-icon">
+		<link rel="apple-touch-icon" sizes="152x152" href="http://localhost:8888/emmigre_v2/images/748050_flag_usa_icon.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="http://localhost:8888/emmigre_v2/images/748050_flag_usa_icon.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="http://localhost:8888/emmigre_v2/images/748050_flag_usa_icon.png">
+		<link rel="apple-touch-icon" href="http://localhost:8888/emmigre_v2/images/748050_flag_usa_icon.png">
+		<link rel="icon" href="apple-touch-icon.html" type="image/x-icon">
+
+		<!-- GOOGLE FONTS -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Muli:400,600,700,800,900&amp;display=swap" rel="stylesheet">
+
+		<!-- BOOTSTRAP CSS -->
+		<link href="http://localhost:8888/emmigre_v2//css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- FONT ICONS -->
+		<link href="http://localhost:8888/emmigre_v2/css/flaticon.css" rel="stylesheet">
+
+		<!-- PLUGINS STYLESHEET -->
+		<link href="http://localhost:8888/emmigre_v2/css/menu.css" rel="stylesheet">
+		<link id="effect" href="http://localhost:8888/emmigre_v2/css/dropdown-effects/fade-down.css" media="all" rel="stylesheet">
+		<link href="http://localhost:8888/emmigre_v2/css/tweenmax.css" rel="stylesheet">
+		<link href="http://localhost:8888/emmigre_v2/css/magnific-popup.css" rel="stylesheet">
+		<link href="http://localhost:8888/emmigre_v2/css/owl.carousel.min.css" rel="stylesheet">
+		<link href="http://localhost:8888/emmigre_v2/css/owl.theme.default.min.css" rel="stylesheet">
+		<link href="http://localhost:8888/emmigre_v2/css/red.css" rel="stylesheet">
+		<link href="http://localhost:8888/emmigre_v2/css/responsive.css" rel="stylesheet">
+	</head>
+
+
+	<body>
+		<!-- PRELOADER SPINNER
+		============================================= -->
+		<div id="loader-wrapper">
+			<div id="loader"><div class="cssload-box-loading"></div></div>
+		</div>
+
+		<div id="page" class="page">
+		<header id="header-2" class="header white-menu">
+		<div class="header-wrapper">
+			<div class="wsmobileheader clearfix">
+				<a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
+				<span class="smllogo"><img src="http://localhost:8888/emmigre_v2/images/logo-black.png" width="200" height="50" alt="mobile-logo"/></span>
+				<a href="tel:123456789" class="callusbtn"><i class="fas fa-phone"></i></a>
+			</div>
+			<div class="wsmainfull menu clearfix">
+				<div class="wsmainwp clearfix">
+					<div class="desktoplogo"><a href="#hero-1" class="logo-black"><img src="http://localhost:8888/emmigre_v2/images/logo-black.png" width="180" height="45" alt="header-logo"></a></div>
+					<div class="desktoplogo"><a href="#hero-1" class="logo-white"><img src="http://localhost:8888/emmigre_v2/images/logo-white.png" width="180" height="45" alt="header-logo"></a></div>
+					<nav class="wsmenu clearfix blue-header">
+					<ul class="wsmenu-list">
+						<li aria-haspopup="true"><a href="http://localhost:8888/emmigre_v2/">Home </a> </li>
+						<li class="nl-simple" aria-haspopup="true"><a href="#tabs-2">Como funciona</a></li>
+						<li class="nl-simple" aria-haspopup="true"><a href="https://blog.emmigre.com">Blog</a></li>      
+						<li class="nl-simple" aria-haspopup="true">
+							<ul class="list-flag-language">
+								<li><a href="http://localhost:8888/emmigre_v2/"><img src="http://localhost:8888/emmigre_v2/images/748057_brazil_flag_icon.png"></a></li>
+								<li><a href="http://localhost:8888/emmigre_v2/en"><img src="http://localhost:8888/emmigre_v2/images/748050_flag_usa_icon.png"></a></li>
+								<li><a href="http://localhost:8888/emmigre_v2/es"><img src="http://localhost:8888/emmigre_v2/images/748137_flag_mexico_icon.png"></a></li>
+							</ul>
+						</li>           
+					</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		</header>
+    <style>
+        h1 {
+          color: #88B04B;
+          font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+          font-weight: 900;
+          font-size: 40px;
+          margin-bottom: 10px;
+        }
+        p {
+          color: #404F5E;
+          font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+          font-size:20px;
+          margin: 0;
+        }
+      i {
+        color: #9ABC66;
+        font-size: 100px;
+        line-height: 200px;
+        margin-left:-15px;
+      }
+      .card {
+        background: white;
+        padding: 60px;
+        border-radius: 4px;
+        box-shadow: 0 2px 3px #C8D0D8;
+        display: inline-block;
+        margin: 0 auto;
+      }
+    </style>
+
+<div class="container text-center">
+    <div class="card">
+        <div style="border-radius:200px; height:200px; width:200px; background: #F8FAF5; margin:0 auto;">
+            <i class="checkmark">✓</i>
+        </div>
+        <h1>Success</h1> 
+        <p>Recebemos sua solicitação e ela está sendo processada neste momento<br/> Em alguns instantes você receberá em seu e-mail todos os dados de acesso e todas informações para iniciar sua aplicação</p>
+      </div>
+</div>
+			<!-- FOOTER-3
+			============================================= -->
+			<footer id="footer-3" class="wide-40 footer division">
+				<div class="container">
+					<!-- FOOTER CONTENT -->
+					<div class="row">
+						<!-- FOOTER CONTACTS -->
+						<div class="col-lg-4 col-xl-4">
+							<div class="footer-box mb-40">
+								<!-- Title -->
+								<h5 class="h5-md">Contato</h5>
+								<p class="p-sm">Boca Raton - Florida</p>
+								<!-- Email -->
+								<p class="p-sm foo-email">Email: <a href="mailto:info@emmigre.com">info@emmigre.com</a></p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-xl-4">
+							<div class="footer-links mb-40">
+								<h5 class="h5-md">Links Úteis</h5>
+								<ul class="foo-links clearfix">
+									<li><a href="#">Sobre Emmigre</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-4 col-xl-4">
+							<div class="footer-links mb-40">
+								<h5 class="h5-md">Visas</h5>
+								<ul class="foo-links clearfix">
+									<li><a href="http://localhost:8888/emmigre_v2/b2-visto-turista">Extensão visto turista/negócios B1/B2</a></li>
+								</ul>
+							</div>
+						</div>				
+					</div>
+					<div class=" footer division">
+						<small>Não somos um escritório de advocacia e este site e nosso software não substituem o conselho de um advogado e não contêm ou constituem aconselhamento jurídico. Não somos afiliados ou patrocinados pelo governo dos Estados Unidos ou por qualquer agência governamental. Este site fornece informações gerais apenas sobre alguns assuntos de imigração comumente encontrados e foi criado para permitir que você navegue de maneira mais simples na conclusão da documentação de imigração usando software on-line. O conteúdo deste site não deve ser utilizado para tirar conclusões sobre a situação específica de qualquer pessoa. O software de auto-ajuda e os serviços de suporte ao cliente são fornecidos exclusivamente sob orientação do usuário. O suporte ao cliente é apenas para questões técnicas e de cobrança e não responderá a perguntas legais. Não fornecemos aconselhamento jurídico, opiniões ou recomendações sobre os direitos legais específicos, recursos, defesas, opções ou estratégias de qualquer indivíduo. Não fazemos recomendações de formulários ou recomendamos ou fornecemos respostas a perguntas específicas em formulários, e as comunicações entre você e nós não são protegidas por nenhum privilégio. Os preços de compra não incluem arquivamento de agências governamentais ou taxas de biometria, se houver. Os formulários que podem ser preenchidos usando nosso software podem ser obtidos gratuitamente nos Serviços de Cidadania e Imigração dos EUA (USCIS) como formulários em branco com instruções por escrito. Os questionários de elegibilidade automatizados foram criados usando instruções, regras e regulamentos publicados pelo USCIS e apenas indicam se você atende aos requisitos mínimos de elegibilidade para solicitar o benefício de imigração fornecido. Os resultados do questionário não garantem a elegibilidade ou inelegibilidade, pois você pode ou não ser elegível com base em motivos não abordados nos questionários. Seu acesso e uso deste site, incluindo qualquer compra, está sujeito e constitui sua concordância com a Política de Privacidade e os Termos de Uso do site. Os reembolsos só serão emitidos se solicitados dentro de trinta (30) dias e antes da impressão do formulário preenchido. Exceções e restrições podem ser aplicadas; consulte a Política de Reembolso para obter detalhes.</small>
+					</div>
+					<div class="bottom-footer">
+						<div class="row d-flex align-items-center">
+							<div class="col-md-4 col-lg-3">
+								<img src="http://localhost:8888/emmigre_v2/images/logo-black.png" width="210" height="50" alt="footer-logo">
+							</div>
+							<div class="col-md-8 col-lg-9 text-right">
+								<p class="footer-copyright">&copy; Copyright <span>Emmigre 2022</span>. Todos os direitos resevados - Um produto do Findus Brasil Group</p>
+								<p class="p-sm"><a href="#">Politica de Privacidade</a></p>
+								<p class="p-sm"><a href="#">Termos e Condições</a></p>
+								<p class="p-sm"><a href="#">Cookies</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+	
+
+		<!-- EXTERNAL SCRIPTS
+		============================================= -->
+		<!-- <script src="js/jquery-3.3.1.min.js"></script> -->
+		<script src="https://js.stripe.com/v3/"></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		<script src="http://localhost:8888/emmigre_v2/js/bootstrap.min.js"></script>
+		<script src="http://localhost:8888/emmigre_v2/js/modernizr.custom.js"></script>
+		<script src="http://localhost:8888/emmigre_v2/js/jquery.easing.js"></script>
+		<script src="http://localhost:8888/emmigre_v2/js/jquery.appear.js"></script>
+		<script src="http://localhost:8888/emmigre_v2/js/jquery.stellar.min.js"></script>
+		<script src="http://localhost:8888/emmigre_v2/js/menu.js"></script>
+		<script src="http://localhost:8888/emmigre_v2/js/materialize.js"></script>
+		<script src="http://localhost:8888/emmigre_v2/js/jquery.scrollto.js"></script>
+		<script src="http://localhost:8888/emmigre_v2/js/owl.carousel.min.js"></script>
+		<script src="http://localhost:8888/emmigre_v2/js/imagesloaded.pkgd.min.js"></script>
+		<script src="http://localhost:8888/emmigre_v2/js/isotope.pkgd.min.js"></script>
+		<script src="http://localhost:8888/emmigre_v2/js/jquery.magnific-popup.min.js"></script>
+		<script src="http://localhost:8888/emmigre_v2/js/hero-request-form.js"></script>
+		<script src="http://localhost:8888/emmigre_v2/js/hero-register-form.js"></script>
+		<script src="http://localhost:8888/emmigre_v2/js/request-form.js"></script>
+		<script src="http://localhost:8888/emmigre_v2/js/contact-form.js"></script>
+		<script src="http://localhost:8888/emmigre_v2/js/comment-form.js"></script>
+		<script src="http://localhost:8888/emmigre_v2/js/jquery.ajaxchimp.min.js"></script>
+		<script src="http://localhost:8888/emmigre_v2/js/jquery.validate.min.js"></script>
+		<script src="http://localhost:8888/emmigre_v2/js/stripeEmmigre.js" async></script>
+		<script src="http://localhost:8888/emmigre_v2/js/SmartForms/b2tourism.js"></script>
+
+		<!-- Custom Script -->
+		<script src="http://localhost:8888/emmigre_v2/js/custom.js"></script>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-77746659-4"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-77746659-4');
+		</script>
+
+</html>

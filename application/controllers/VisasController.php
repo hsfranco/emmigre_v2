@@ -16,6 +16,9 @@ class VisasController extends CI_Controller {
 		$this->load->view('includes/header');
 		$this->load->view('pages/home', $data);
 		$this->load->view('includes/footer');
+
+		$this->output->cache(5);
+
 	}
 
     public function b2tourism() 
@@ -29,6 +32,8 @@ class VisasController extends CI_Controller {
 		$this->load->view('includes/header', $header);
 		$this->load->view('visas/b2tourism', $data);
 		$this->load->view('includes/footer');
+		
+		$this->output->cache(5);
 	}
 
 	
