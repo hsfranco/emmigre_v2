@@ -45,7 +45,7 @@ class Stripe_model extends CI_Model {
     }
 
     public function CreatePaymentSession() {
-      $session_token = $this->Stripe_model->GUID();
+      $session_token = $this->Functions_model->GUID();
       $success_url = base_url() . "/b2-visto-turista/confirmacao/" . $session_token;
       $cancel_url = base_url() . "/b2-visto-turista";
 
@@ -56,6 +56,9 @@ class Stripe_model extends CI_Model {
             'price' => 'price_1LK009CH8UypDiwQECIwEdqx',
             'quantity' => 1
           ]],
+          'phone_number_collection' => [
+            'enabled' => true,
+          ],
           'success_url' => $success_url,
           'cancel_url' =>  $cancel_url,
         ]);
