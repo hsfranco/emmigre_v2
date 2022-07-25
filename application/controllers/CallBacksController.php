@@ -8,21 +8,21 @@ class CallbacksController extends CI_Controller {
 		$this->load->model('Stripe_model');
 	}
 
-	 public function customer_subscription_created() {
+	public function customer_subscription_created() {
 
-			$data = json_decode(file_get_contents('php://input'), true);
-			$dataText = json_encode(file_get_contents('php://input'), true);
+		$data = json_decode(file_get_contents('php://input'), true);
+		$dataText = json_encode(file_get_contents('php://input'), true);
 			
-			if (!empty($data)) {
-			
-			}
+		if (!empty($data)) {
 		
-			$this->db->insert('tbl_Logs', ['ds_Log' =>   $data['data'],
-										'dt_Log' =>  date('Y-m-d H:i:s')]);
-	  }
+		}
+	
+		$this->db->insert('tbl_Logs', ['ds_Log' =>   $data['data'],
+									'dt_Log' =>  date('Y-m-d H:i:s')]);
+	}
 	
 	 
-	  public function payment_intent_succeeded() {
+	public function payment_intent_succeeded() {
 
 		$data = json_decode(file_get_contents('php://input'), true);
 		$dataText = json_encode(file_get_contents('php://input'), true);

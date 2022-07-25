@@ -50,6 +50,7 @@ body {
 
 
 
+
 /*------------------------------------------------------------------*/
 /*  IE10 in Windows 8 and Windows Phone 8 Bug fix
 /*-----------------------------------------------------------------*/
@@ -1162,9 +1163,7 @@ span.id-color {
   transform: translateY(-50%);
 }
 
-.cssload-box-loading {
-  width: 75px;
-  height: 75px;
+.my-cssload-box-loading {
   margin: auto;
   position: absolute;
   left: 0;
@@ -1173,7 +1172,7 @@ span.id-color {
   bottom: 0;
 }
 
-.cssload-box-loading:before {
+._cssload-box-loading:before {
   content: '';
   width: 75px;
   height: 8px;
@@ -1190,7 +1189,7 @@ span.id-color {
   -moz-animation: shadow 0.58s linear infinite;
 }
 
-.cssload-box-loading:after {
+._cssload-box-loading:after {
   content: '';
   width: 75px;
   height: 75px;

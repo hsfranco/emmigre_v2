@@ -29,7 +29,7 @@ class SmartformsController extends CI_Controller {
 		$this->load->view('includes/footer');
 
 
-		$this->output->cache(5);
+		//$this->output->cache(5);
 	}
 
 
@@ -45,6 +45,6 @@ class SmartformsController extends CI_Controller {
 		$this->load->view('includes/footer');
 
 
-		$this->output->cache(5);
+		//$this->output->cache(5);
 	}
 }

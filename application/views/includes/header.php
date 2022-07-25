@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 		<meta name="author" content="Hallan Franco - HACODE SOLUTIONS"/>
@@ -41,13 +40,11 @@
 		<link href="<?php echo base_url() ?>css/red.css" rel="stylesheet">
 		<link href="<?php echo base_url() ?>css/responsive.css" rel="stylesheet">
 	</head>
-
-
 	<body>
 		<!-- PRELOADER SPINNER
 		============================================= -->
 		<div id="loader-wrapper">
-			<div id="loader"><div class="cssload-box-loading"></div></div>
+			<div id="loader"><img src="<?php echo base_url() ?>images/Loading_icon.gif" class="cssload-box-loading" /></div>
 		</div>
 
 		<div id="page" class="page">
@@ -55,13 +52,13 @@
 		<div class="header-wrapper">
 			<div class="wsmobileheader clearfix">
 				<a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
-				<span class="smllogo"><img src="<?php echo base_url() ?>images/logo-black.png" width="200" height="50" alt="mobile-logo"/></span>
+				<span class="smllogo"><img src="<?php echo base_url() ?>images/emmigre-logo.png" width="200" height="50" alt="mobile-logo"/></span>
 				<a href="tel:123456789" class="callusbtn"><i class="fas fa-phone"></i></a>
 			</div>
 			<div class="wsmainfull menu clearfix">
 				<div class="wsmainwp clearfix">
-					<div class="desktoplogo"><a href="#hero-1" class="logo-black"><img src="<?php echo base_url() ?>images/logo-black.png" width="180" height="45" alt="header-logo"></a></div>
-					<div class="desktoplogo"><a href="#hero-1" class="logo-white"><img src="<?php echo base_url() ?>images/logo-white.png" width="180" height="45" alt="header-logo"></a></div>
+					<div class="desktoplogo"><a href="<?php echo base_url(); ?>" class="logo-black"><img src="<?php echo base_url() ?>images/emmigre-logo.png" width="180" height="45" alt="header-logo"></a></div>
+					<div class="desktoplogo"><a href="<?php echo base_url(); ?>" class="logo-white"><img src="<?php echo base_url() ?>images/emmigre-logo.png" width="180" height="45" alt="header-logo"></a></div>
 					<nav class="wsmenu clearfix blue-header">
 					<ul class="wsmenu-list">
 						<li aria-haspopup="true"><a href="<?php echo base_url() ?>">Home </a> </li>
@@ -79,4 +76,4 @@
 				</div>
 			</div>
 		</div>
-		</header>
+	</header>

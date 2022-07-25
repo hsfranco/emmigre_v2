@@ -20,10 +20,11 @@ $route['b2-visto-turista/confirmacao'] = 'SmartformsController/confirmacaob2tour
 /********************************************************
  *                 PORTUGUESES BASIC PAGES              * 
  ********************************************************/
-$route['politica-de-privacidade'] = 'PagesController/index';
-$route['termos-e-condicoes'] = 'PagesController/index';
-$route['cookies'] = 'PagesController/index';
-$route['sobre-nos'] = 'PagesController/index';
+$route['politica-de-privacidade'] = 'PagesController/politicas';
+$route['termos-e-condicoes'] = 'PagesController/termos';
+$route['cookies'] = 'PagesController/cookies';
+$route['sobre-emmigre'] = 'PagesController/sobre';
+
 
 /********************************************************
  *                  STRIPE CALLBACKS                    * 
@@ -39,7 +40,7 @@ $route['cron/execute_all_tasks/(:any)'] = 'JobsController/ExecuteAllTasks/$1';
 
 
 /********************************************************
- *                 ENGLISH BASIC PAGES              * 
+ *                 ENGLISH BASIC PAGES                  * 
  ********************************************************/
 $route['/en'] = 'PagesController/index_en';
 $route['/en/about-us'] = 'PagesController/index_en';

@@ -23,15 +23,15 @@
 
 				<!-- ABOUT-9
 				============================================= -->
-				<section id="about-9" class="wide-60 about-section division">
+				<section id="about-9" class="mt-30 about-section division">
 					<div class="container">	
 						<div class="row">
 							<!-- ABOUT TEXT -->
-							<div class="col-lg-8">
+							<div class="col-lg-12">
 								<div class="about-9-txt mb-40 pr-15">
 
 									<!-- Title -->
-									<h3 class="h3-md"></h3>
+									<h3 class="h3-md">Extensão visto turista/negócios B1/B2</h3>
 
 									<!-- ABOUT BOXES -->
 									<div class="a-9-boxes row bg-lightgrey d-flex align-items-center">
@@ -207,44 +207,7 @@
 
 								</div>
 							</div>	<!-- END ABOUT TEXT -->
-							<!-- SIDEBAR -->
-							<aside id="sidebar" class="col-lg-4">
 
-								<!-- SIDEBAR CATEGORIES --> 
-								<div class="blog-categories sidebar-div mb-50">
-										
-									<!-- Title -->
-									<h5 class="h5-lg">Courses Categories: </h5>
-
-									<!-- List -->
-									<ul class="blog-category-list clearfix">
-										<li><a href="#" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> TOEFL</a></li>
-										<li><a href="#" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> PTE Coaching</a></li>
-										<li><a href="#" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> SAT (Scholastic Aptitude Test)</a></li>
-										<li><a href="#" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> OET (Occupational English Test)</a></li>
-										<li><a href="#" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> Spoken English</a></li>
-									</ul>
-								</div>
-								<!-- SIDEBAR COUNTRIES --> 
-								<div class="sidebar-countries sidebar-div mb-50">
-										
-									<!-- Title -->
-									<h5 class="h5-lg">Popular Countries: </h5>
-
-									<!-- List -->
-									<ul class="sidebar-country-list clearfix">
-										<li><a href="country-detail.html">
-											<img class="img-fluid" src="images/sidebar-canada.jpg" alt="sidebar-image" />Canada</a>
-										</li>
-										<li><a href="country-detail.html">
-											<img class="img-fluid" src="images/sidebar-uk.jpg" alt="sidebar-image" />United Kingdom</a>
-										</li>
-										<li><a href="country-detail.html">
-											<img class="img-fluid" src="images/sidebar-usa.jpg" alt="sidebar-image" />United States of America</a>
-										</li>
-									</ul>
-								</div>
-							</aside>	<!-- END SIDEBAR -->
 
 
 						</div>    <!-- End row -->
@@ -260,18 +223,8 @@
 				<section id="about-6" class="bg-scroll pt-100 about-section division">
 					<div class="container white-color">
 						<div class="row d-flex align-items-center">
-
-
-							<!-- ABOUT IMAGE -->
-				 			<div class="col-lg-6">
-				 				<div class="about-6-img text-center">
-									<img class="img-fluid" src="images/image-08.png" alt="about-image" />
-								</div>
-				 			</div>
-
-						
-							<!-- ABOUT TEXT -->
-							<div class="col-lg-6">
+<!-- ABOUT TEXT -->
+							<div class="col-lg-12">
 								<div class="about-6-txt pc-20">
 
 									<!-- Section ID -->	
@@ -285,17 +238,12 @@
 									   ligula rutrum viverra tortor sapien sodales quaerat sodales sapien blandit dolores and aliquam
 									</p>		
 
-									<!-- Small Title -->
-									<h5 class="h5-lg">350+ Universities in 17 Countries:</h5>		
+									<hr>	
+									<hr>
+									<hr>
+									<hr>
 
-									<!-- Flags list -->
-									<ul class="flags-list">
-										<li><a href="country-details.html"><img src="images/flags/canada.png" alt="flag"/><span>Canada</span></a></li>
-										<li><a href="country-details.html"><img src="images/flags/australia.png" alt="flag"/><span>Australia</span></a></li>
-										<li><a href="country-details.html"><img src="images/flags/usa.png" alt="flag"/><span>USA</span></a></li>	
-										<li><a href="country-details.html"><img src="images/flags/united-kingdom.png" alt="flag"/><span>UK</span></a></li>	
-										<li><a href="country-details.html"><img src="images/flags/eu.png" alt="flag"/><span>Europe</span></a></li>	
-									</ul>		
+						
 
 								</div>							
 							</div> <!-- END ABOUT TEXT -->

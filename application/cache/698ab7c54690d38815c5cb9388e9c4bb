@@ -1,4 +1,4 @@
-a:2:{s:6:"expire";i:1658313988;s:7:"headers";a:0:{}}ENDCI---><!DOCTYPE html>
+a:2:{s:6:"expire";i:1658575033;s:7:"headers";a:0:{}}ENDCI---><!DOCTYPE html>
 <html lang="pt-br">
 <head>
 
@@ -55,13 +55,13 @@ a:2:{s:6:"expire";i:1658313988;s:7:"headers";a:0:{}}ENDCI---><!DOCTYPE html>
 		<div class="header-wrapper">
 			<div class="wsmobileheader clearfix">
 				<a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
-				<span class="smllogo"><img src="http://localhost:8888/emmigre_v2/images/logo-black.png" width="200" height="50" alt="mobile-logo"/></span>
+				<span class="smllogo"><img src="http://localhost:8888/emmigre_v2/images/emmigre-logo.png" width="200" height="50" alt="mobile-logo"/></span>
 				<a href="tel:123456789" class="callusbtn"><i class="fas fa-phone"></i></a>
 			</div>
 			<div class="wsmainfull menu clearfix">
 				<div class="wsmainwp clearfix">
-					<div class="desktoplogo"><a href="#hero-1" class="logo-black"><img src="http://localhost:8888/emmigre_v2/images/logo-black.png" width="180" height="45" alt="header-logo"></a></div>
-					<div class="desktoplogo"><a href="#hero-1" class="logo-white"><img src="http://localhost:8888/emmigre_v2/images/logo-white.png" width="180" height="45" alt="header-logo"></a></div>
+					<div class="desktoplogo"><a href="http://localhost:8888/emmigre_v2/" class="logo-black"><img src="http://localhost:8888/emmigre_v2/images/emmigre-logo.png" width="180" height="45" alt="header-logo"></a></div>
+					<div class="desktoplogo"><a href="http://localhost:8888/emmigre_v2/" class="logo-white"><img src="http://localhost:8888/emmigre_v2/images/emmigre-logo.png" width="180" height="45" alt="header-logo"></a></div>
 					<nav class="wsmenu clearfix blue-header">
 					<ul class="wsmenu-list">
 						<li aria-haspopup="true"><a href="http://localhost:8888/emmigre_v2/">Home </a> </li>
@@ -228,8 +228,8 @@ a:2:{s:6:"expire";i:1658313988;s:7:"headers";a:0:{}}ENDCI---><!DOCTYPE html>
     <img src="http://localhost:8888/emmigre_v2//images/approved-160121_640.png" alt="" style="max-width:150px;">
     </br>
     <hr>
-    <button id="checkout-button" type="submit" data-secret="cs_test_a1z2JwCWOKMHrM2cqig5qCUNF9AwThMyhB1gcAnguUSZVKQq9nzNKdiQgn" class="btn btn-primary btn-lg btn-arrow btn-application">INICIAR APLICAÇÃO</button>
-    <input type="hidden" id="stripeSessionID" value="cs_test_a1z2JwCWOKMHrM2cqig5qCUNF9AwThMyhB1gcAnguUSZVKQq9nzNKdiQgn">
+    <button id="checkout-button" type="submit" data-secret="cs_test_a19TkP4Psu8bf3Kc3m3ISOhQk16lICmX5q0ayDIWKNek9uq6sjCbjp2HkN" class="btn btn-primary btn-lg btn-arrow btn-application">INICIAR APLICAÇÃO</button>
+    <input type="hidden" id="stripeSessionID" value="cs_test_a19TkP4Psu8bf3Kc3m3ISOhQk16lICmX5q0ayDIWKNek9uq6sjCbjp2HkN">
 </div>
 
 
@@ -272,7 +272,7 @@ a:2:{s:6:"expire";i:1658313988;s:7:"headers";a:0:{}}ENDCI---><!DOCTYPE html>
 					<div class="bottom-footer">
 						<div class="row d-flex align-items-center">
 							<div class="col-md-4 col-lg-3">
-								<img src="http://localhost:8888/emmigre_v2/images/logo-black.png" width="210" height="50" alt="footer-logo">
+								<img src="http://localhost:8888/emmigre_v2/images/emmigre-logo.png" width="210" height="50" alt="footer-logo">
 							</div>
 							<div class="col-md-8 col-lg-9 text-right">
 								<p class="footer-copyright">&copy; Copyright <span>Emmigre 2022</span>. Todos os direitos resevados - Um produto do Findus Brasil Group</p>

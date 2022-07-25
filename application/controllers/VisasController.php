@@ -17,7 +17,7 @@ class VisasController extends CI_Controller {
 		$this->load->view('pages/home', $data);
 		$this->load->view('includes/footer');
 
-		$this->output->cache(5);
+		//$this->output->cache(5);
 
 	}
 
@@ -33,7 +33,7 @@ class VisasController extends CI_Controller {
 		$this->load->view('visas/b2tourism', $data);
 		$this->load->view('includes/footer');
 		
-		$this->output->cache(5);
+		//$this->output->cache(5);
 	}
 
 	

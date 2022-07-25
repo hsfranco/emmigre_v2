@@ -18,7 +18,7 @@
 							<div class="footer-links mb-40">
 								<h5 class="h5-md">Links Úteis</h5>
 								<ul class="foo-links clearfix">
-									<li><a href="#">Sobre Emmigre</a></li>
+									<li><a href="<?php echo base_url() ?>/sobre-emmigre">Sobre Emmigre</a></li>
 								</ul>
 							</div>
 						</div>
@@ -37,13 +37,13 @@
 					<div class="bottom-footer">
 						<div class="row d-flex align-items-center">
 							<div class="col-md-4 col-lg-3">
-								<img src="<?php echo base_url() ?>images/logo-black.png" width="210" height="50" alt="footer-logo">
+								<img src="<?php echo base_url() ?>images/emmigre-logo.png" width="210" height="50" alt="footer-logo">
 							</div>
 							<div class="col-md-8 col-lg-9 text-right">
 								<p class="footer-copyright">&copy; Copyright <span>Emmigre 2022</span>. Todos os direitos resevados - Um produto do Findus Brasil Group</p>
-								<p class="p-sm"><a href="#">Politica de Privacidade</a></p>
-								<p class="p-sm"><a href="#">Termos e Condições</a></p>
-								<p class="p-sm"><a href="#">Cookies</a></p>
+								<p class="p-sm"><a href="<?php echo base_url() ?>/politica-de-privacidade">Política de Privacidade</a></p>
+								<p class="p-sm"><a href="<?php echo base_url() ?>/termos-e-condicoes">Termos e Condições</a></p>
+								<p class="p-sm"><a href="<?php echo base_url() ?>/cookies">Cookies</a></p>
 							</div>
 						</div>
 					</div>
@@ -92,5 +92,9 @@
 
 			gtag('config', 'UA-77746659-4');
 		</script>
+		<script>  var MessageBirdChatWidgetSettings = {     
+			widgetId: 'caeaf7f2-e4e0-4336-b9dd-77fb89d5f1c0',    
+			 initializeOnLoad: true,   };  
+			 !function(){"use strict";if(Boolean(document.getElementById("live-chat-widget-script")))console.error("MessageBirdChatWidget: Snippet loaded twice on page");else{var e,t;window.MessageBirdChatWidget={},window.MessageBirdChatWidget.queue=[];for(var i=["init","setConfig","toggleChat","identify","hide","on","shutdown"],n=function(){var e=i[d];window.MessageBirdChatWidget[e]=function(){for(var t=arguments.length,i=new Array(t),n=0;n<t;n++)i[n]=arguments[n];window.MessageBirdChatWidget.queue.push([[e,i]])}},d=0;d<i.length;d++)n();var a=(null===(e=window)||void 0===e||null===(t=e.MessageBirdChatWidgetSettings)||void 0===t?void 0:t.widgetId)||"",o=function(){var e,t=document.createElement("script");t.type="text/javascript",t.src="https://livechat.messagebird.com/bootstrap.js?widgetId=".concat(a),t.async=!0,t.id="live-chat-widget-script";var i=document.getElementsByTagName("script")[0];null==i||null===(e=i.parentNode)||void 0===e||e.insertBefore(t,i)};"complete"===document.readyState?o():window.attachEvent?window.attachEvent("onload",o):window.addEventListener("load",o,!1)}}();</script>
 
 </html>

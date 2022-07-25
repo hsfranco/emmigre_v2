@@ -5,6 +5,8 @@ class Stripe_model extends CI_Model {
     {
       parent::__construct();
 
+      $this->load->model('Functions_model');
+
       require_once(APPPATH. "../vendor/stripe/stripe-php/init.php");
 
       // TEST API KEYS
@@ -43,7 +45,8 @@ class Stripe_model extends CI_Model {
     }
 
     public function CreatePaymentSession() {
-      $success_url = base_url() . "/b2-visto-turista/confirmacao";
+      $session_token = $this->Stripe_model->GUID();
+      $success_url = base_url() . "/b2-visto-turista/confirmacao/" . $session_token;
       $cancel_url = base_url() . "/b2-visto-turista";
 
         $session['stripe'] = \Stripe\Checkout\Session::create([

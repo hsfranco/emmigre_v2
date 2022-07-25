@@ -30,7 +30,6 @@ class JobsController extends CI_Controller {
       
         $this->CheckNewPayments();
 
-
         $this->db->insert("tbl_Logs", ['dt_Log' => date('Y-m-d H:i:s'),
                                        'cd_Event' => 'message',
                                        'ds_Log' => 'Finishing executing all Tasks',
@@ -49,7 +48,7 @@ class JobsController extends CI_Controller {
        foreach ($new_payments as $payment) {
 
          $pwd = $this->CreateUserMoodle($payment);
-         $this->CreateUserDocketwise($payment);
+         $resultUserDocketWise = $this->CreateUserDocketwise($payment);
          $resultEmail = $this->SendFinalEmailRegister($payment, $pwd);
 
          if (!$resultEmail) {
@@ -137,7 +136,27 @@ class JobsController extends CI_Controller {
         $docket_wise_api_base_url = 'https://app.docketwise.com/api/v1/';
 
 
+        $request_authorization = '/oauth/authorize?response_type=code&client_id=your_client_id&redirect_uri=http%3A%2F%2Fyourapp.com%2Fcallback&scope=public%20write';
 
+        $ch = curl_init();
+        $headers = array(
+        'Accept: application/json',
+        'Content-Type: application/json');
+        
+        curl_setopt($ch, CURLOPT_URL, $this->service_url.'user/'.$id_user);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+        curl_setopt($ch, CURLOPT_HEADER, 0);
+        $body = '{}';
+    
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET"); 
+        curl_setopt($ch, CURLOPT_POSTFIELDS,$body);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    
+        // Timeout in seconds
+        curl_setopt($ch, CURLOPT_TIMEOUT, 30);
+    
+        $authToken = curl_exec($ch);
+    
         $this->db->where('id_Payment', $payment_row['id_Payment']);
         $this->db->update('tbl_Payments', ['cd_Status' => 'user_docketwise_created',
                                            'dt_LastUpdate' => date('Y-m-d H:i:s'),
