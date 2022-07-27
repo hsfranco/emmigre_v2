@@ -36,12 +36,14 @@ class CallbacksController extends CI_Controller {
 											   'cd_Method' => '']);
 
 			    $customer = $this->Stripe_model->getCustomer($data['data']['object']["customer"]);
+
 				$this->db->insert('tbl_Payments', ['id_StripePayment' => $data['data']['object']['id'],
 												   'cd_Status' => 'new_payment',
 												   'dt_Register' => date('Y-m-d H:i:s'),
 												   'url_Receipt' => '',
 												   'ds_CustomerName' => $customer->name,
 												   'ds_CustomerEmail' => $customer->email,
+												   'ds_CustomerPhone' => $customer->phone,
 												   'cd_CustomerId' => $data['data']['object']["customer"]]);
 
 												

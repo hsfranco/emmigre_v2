@@ -104,7 +104,7 @@ class JobsController extends CI_Controller {
                                                                                                 'userid' =>  $id_last_id_created, 
                                                                                                 'timestart' => strtotime(date('Y-m-d h:i:sa')), 
                                                                                                 'timeend' => '', 
-                                                                                                'modfierid' => 2, 
+                                                                                                'modifierid' => 2, 
                                                                                                 'timecreated' => strtotime(date('Y-m-d h:i:sa')), 
                                                                                                 'timemodified' => strtotime(date('Y-m-d h:i:sa'))]);
 
@@ -133,29 +133,88 @@ class JobsController extends CI_Controller {
                                         'ds_Log' => 'Creating user docketwise for user' . $payment_row['ds_CustomerEmail'],
                                         'cd_Method' => 'JobsControllers/ExecuteAllTasks']);
 
-        $docket_wise_api_base_url = 'https://app.docketwise.com/api/v1/';
+       
+        $curl = curl_init();
 
+        $firstName = '';
+        $middleName = '';
+        $lastName = '';
 
-        $request_authorization = '/oauth/authorize?response_type=code&client_id=your_client_id&redirect_uri=http%3A%2F%2Fyourapp.com%2Fcallback&scope=public%20write';
+        $nameArray = explode(" ", $payment_row['ds_CustomerName']);
 
-        $ch = curl_init();
-        $headers = array(
-        'Accept: application/json',
-        'Content-Type: application/json');
+        if (count($nameArray) === 5) {
+
+            $firstName = $nameArray[0];
+            $middleName = $nameArray[1] . " ";
+            $middleName .= $nameArray[2] . " ";
+            $middleName .= $nameArray[3];
+            $lastName = $nameArray[4];
+
+        } else if (count($nameArray) === 4) {
+
+            $firstName = $nameArray[0];
+            $middleName = $nameArray[1] . " ";
+            $middleName = $nameArray[2] . " ";
+            $lastName = $nameArray[3];
+
+        } else if (count($nameArray) === 3) {
+            
+            $firstName = $nameArray[0];
+            $middleName = $nameArray[1];
+            $lastName = $nameArray[2];
+
+        } else if (count($nameArray) === 2) {
+            
+            $firstName = $nameArray[0];
+            $lastName = $nameArray[1];
+
+        } else {
+
+            $firstName = $nameArray[0];
         
-        curl_setopt($ch, CURLOPT_URL, $this->service_url.'user/'.$id_user);
-        curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-        curl_setopt($ch, CURLOPT_HEADER, 0);
-        $body = '{}';
-    
-        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET"); 
-        curl_setopt($ch, CURLOPT_POSTFIELDS,$body);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    
-        // Timeout in seconds
-        curl_setopt($ch, CURLOPT_TIMEOUT, 30);
-    
-        $authToken = curl_exec($ch);
+        }
+
+
+        curl_setopt_array($curl, array(
+          CURLOPT_URL => 'https://app.docketwise.com/api/v1/contacts',
+          CURLOPT_RETURNTRANSFER => true,
+          CURLOPT_ENCODING => '',
+          CURLOPT_MAXREDIRS => 10,
+          CURLOPT_TIMEOUT => 0,
+          CURLOPT_FOLLOWLOCATION => true,
+          CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+          CURLOPT_CUSTOMREQUEST => 'POST',
+          CURLOPT_POSTFIELDS =>'{
+            "contact": {
+                "first_name": "'.$firstName.'",
+                "middle_name": "'.$middleName.'",
+                "last_name": "'.$lastName.'",
+                "email": "'. $payment_row['ds_CustomerEmail'] .'",
+                "type": "Person",
+                "addresses_attributes": [{
+                    "data": {
+                        "street_number_and_name": "This is and address",		 
+                        "physical": true
+                    }
+                }],
+                "phone_numbers_attributes": [{
+                    "data": {
+                        "number": "'. $payment_row['ds_CustomerPhone'] .'",
+                        "daytime": true
+                    }
+                }]
+            }
+        }',
+          CURLOPT_HTTPHEADER => array(
+            'Authorization: Bearer JfPfiyQbsxUbGYrEr0S187sPS82uOakAu8CEyHj3unE',
+            'Content-Type: application/json',
+            'Cookie: _borderwise_session=4d72c4567d8e4e1ece7eb4bad98527dd'
+          ),
+        ));
+        
+        $response = curl_exec($curl);
+        curl_close($curl);
+
     
         $this->db->where('id_Payment', $payment_row['id_Payment']);
         $this->db->update('tbl_Payments', ['cd_Status' => 'user_docketwise_created',
@@ -165,7 +224,7 @@ class JobsController extends CI_Controller {
     }
 
     public function SendFinalEmailRegister($payment_row, $pwd) {
-        $html = "Seja bem vindo ao EMMIGRE </br>";
+        $html = " Seja bem vindo ao EMMIGRE </br>";
         $html .= "Abaixo você vai ter informações referente ao acesso a nota ferramenta que criar a sua trilha para criação do seu processo imigratório, leia com muita atenção todos os tópico e só marque com finalizado aqueles que você tiver finalizado </br>";
         $html .= "Seu usuáiro: " . $payment_row['ds_CustomerEmail'] . "</br>";
         $html .= "Sua senha: " .  $pwd . "</br>";

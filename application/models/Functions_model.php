@@ -4,7 +4,6 @@ class Functions_model extends CI_Model {
 
     public function _construct() {
         $this->load->database();
-        
     }
 
     public function GUID()

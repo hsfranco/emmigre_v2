@@ -44,7 +44,7 @@
 		<!-- PRELOADER SPINNER
 		============================================= -->
 		<div id="loader-wrapper">
-			<div id="loader"><img src="<?php echo base_url() ?>images/Loading_icon.gif" class="cssload-box-loading" /></div>
+			<div id="loader"><img src="<?php echo base_url() ?>images/loader-image.gif" class="loader-img" /></div>
 		</div>
 
 		<div id="page" class="page">

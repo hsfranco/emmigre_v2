@@ -30,7 +30,7 @@
 		var b = $(window).scrollTop();
 		
 		if( b > 100 ){		
-			$(".wsmainfull").addClass("scroll");
+			//$(".wsmainfull").addClass("scroll");
 		} else {
 			$(".wsmainfull").removeClass("scroll");
 		}				

@@ -14,7 +14,7 @@ $route['/'] = 'PagesController/index';
  ********************************************************/
 $route['b2-visto-turista'] = 'VisasController/b2tourism';
 $route['questionario/b2-visto-turista'] = 'SmartformsController/b2tourism';
-$route['b2-visto-turista/confirmacao'] = 'SmartformsController/confirmacaob2tourism';
+$route['b2-visto-turista/confirmacao/(:any)'] = 'SmartformsController/confirmacaob2tourism/$1';
 
 
 /********************************************************

@@ -62,9 +62,8 @@ class Stripe_model extends CI_Model {
           'success_url' => $success_url,
           'cancel_url' =>  $cancel_url,
         ]);
-
       
-          return $session;
+        return $session;
     }
     }
 ?>

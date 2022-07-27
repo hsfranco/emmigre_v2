@@ -1163,6 +1163,17 @@ span.id-color {
   transform: translateY(-50%);
 }
 
+#scrollUp {
+  display:none;
+}
+
+.loader-img {
+  margin:0 auto;
+  display: flex;
+  max-width:250px;
+  justify-content: center;
+}
+
 .my-cssload-box-loading {
   margin: auto;
   position: absolute;
